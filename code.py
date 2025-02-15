@@ -16,7 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-"Rhymes", "nursery rhymes", "rhymes for kids"
+"quotes", "inspirational", "happy"
 ]
 
 # Fetch Data Button
