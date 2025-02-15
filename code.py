@@ -94,7 +94,7 @@ if st.button("Fetch Data"):
                         "URL": video_url,
                         "Views": views,
                         "Subscribers": subs
-                        "Name": Name
+                        "Name": name,
                     })
 
         # Display results
