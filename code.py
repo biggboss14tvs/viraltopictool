@@ -16,7 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-"Cooking tutorials", "Fitness motivation", "Tech reviews", "Travel vlogs", "Gaming walkthroughs", "Fashion tips", "Beauty hacks", "Music covers", "DIY projects", "Life hacks", "Product unboxing", "Healthy recipes" 
+ "Self Improvement", "Fitness Hacks", "Short Recipes", "Life Hacks", "Pet Videos", "Travel Destinations"
 ]
 
 # Fetch Data Button
