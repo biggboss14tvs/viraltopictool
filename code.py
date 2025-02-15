@@ -16,7 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-"MrBeast", "Viral Challenges", "Self Improvement", "Fitness Motivation", "Tech Unboxing", "Gaming Tutorials", "Music Covers", "DIY Projects", "Food Recipes", "Life Hacks", "Pet Videos", "Travel Vlogs", "Celebrity News", "ASMR", "Product Reviews", "Vlogging Tips", "Short Films", "Health Tips", "Educational Content", "Reaction Videos", "Motivational Speeches"
+"Viral Challenges", "Self Improvement", "Fitness Motivation", "Tech Unboxing", "Gaming Tutorials", "Music Covers", "DIY Projects", "Food Recipes", "Life Hacks", "Pet Videos", "Travel Vlogs", "Celebrity News", "ASMR", "Product Reviews", "Vlogging Tips", "Short Films", "Health Tips", "Educational Content", "Reaction Videos", "Motivational Speeches"
 ]
 
 # Fetch Data Button
@@ -37,7 +37,7 @@ if st.button("Fetch Data"):
                 "type": "video",
                 "order": "viewCount",
                 "publishedAfter": start_date,
-                "maxResults": 5,
+                "maxResults": 25,
                 "key": API_KEY,
             }
 
