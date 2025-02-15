@@ -16,7 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-Here’s a keyword list related to quotes on YouTube in the format you requested:
+
 
 "Motivational Quotes", "Inspirational Quotes", "Famous Quotes", "Life Quotes", "Success Quotes", "Love Quotes", "Positive Quotes", "Quotes for Life", "Wisdom Quotes", "Quotes About Happiness", "Short Quotes", "Funny Quotes", "Deep Quotes", "Quotes on Strength", "Self Love Quotes", "Confidence Quotes", "Leadership Quotes", "Quotes for Success", "Quotes for Motivation", "Daily Quotes"
 ]
